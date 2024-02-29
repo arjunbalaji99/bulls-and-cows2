@@ -1,0 +1,41 @@
+.gameover-container {
+    position: fixed;
+    top: 40%;
+    left: 38%;
+  }
+
+  @media screen and (max-width: 1100px) {
+    .gameover-container {
+      top: 35%;
+      left: 30%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .gameover-container {
+      top: 30%;
+      left: 16%;
+    }
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .playagain-button {
+    background-color: #e4e2e2; /* Green background color */
+    border: none; /* No border */
+    color: black; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    text-align: center; /* Center text horizontally */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+  }

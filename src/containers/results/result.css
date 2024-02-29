@@ -1,0 +1,22 @@
+.bulls, .cows {
+    display: flex;
+    align-items: center;
+}
+.bulls {
+    margin-bottom: 5px;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 10px; 
+}
+
+.bull-circle {
+    background-color: green;
+}
+.cow-circle {
+    background-color: rgb(181, 181, 15);
+}
+

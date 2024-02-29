@@ -1,0 +1,86 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    border-bottom: 1px solid lightgray;
+    width: 100%;  
+}
+.header-title-container {
+    flex: 1;
+    text-align: center;
+    margin-left: 30px;
+}
+.header-title {
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.header-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+.question-mark {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    border: 2px solid #000; 
+    font-size: 20px;
+    font-weight: bold; 
+    background-color: transparent; 
+    cursor: pointer; 
+  }
+  
+  .question-mark:hover {
+    background-color: #ccc; 
+  }
+
+  
+.modal-content {
+    position: fixed;
+    left: 36%;
+    top: 35%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1100px) {
+    .modal-content {
+      top: 35%;
+      left: 28%;
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .modal-content {
+      top: 30%;
+      left: 15%;
+      width: 60%;
+    }
+  }
+  
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  

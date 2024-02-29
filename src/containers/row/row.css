@@ -1,0 +1,11 @@
+.row-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-letters-container, .row-result-container {
+    display: flex;
+}
+.row-letters-container > * {
+  margin: 0 5px; /* Adjust space between letters */
+}
