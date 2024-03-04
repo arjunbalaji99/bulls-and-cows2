@@ -1,20 +1,21 @@
-.gameover-container {
+.gameover-internal-container {
+  display: flex;
     position: fixed;
     top: 40%;
     left: 38%;
   }
 
   @media screen and (max-width: 1100px) {
-    .gameover-container {
+    .gameover-internal-container {
       top: 35%;
       left: 30%;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .gameover-container {
+    .gameover-internal-container {
       top: 30%;
-      left: 16%;
+      left: 10%;
     }
   }
   
@@ -22,7 +23,6 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
-    width: 100%;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }

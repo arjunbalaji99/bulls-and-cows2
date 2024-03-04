@@ -10,7 +10,7 @@ const GameOver = () => {
   }
 
   return (
-    <div className="gameover-container">
+    <div className="gameover-internal-container">
       <div className="modal">
         {gameOver.guessedWord
           ? <p>Congratulations! You guessed the word!</p>

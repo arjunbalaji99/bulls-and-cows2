@@ -9,3 +9,6 @@
         margin-bottom: 7px;
     }
 }
+.gameover-container {
+    display: flex;
+}
