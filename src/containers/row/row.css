@@ -12,6 +12,6 @@
 
 @media screen and (max-width: 1000px){
     .row-letters-container > * {
-        margin: 0 2px; /* Adjust space between letters */
+        margin: 0 3px; /* Adjust space between letters */
     }
 }
