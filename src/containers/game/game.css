@@ -4,3 +4,8 @@
 .rows-container > * {
     margin-bottom: 10px;
 }
+@media screen and (max-width: 1000px) {
+    .rows-container > * {
+        margin-bottom: 5px;
+    }
+}

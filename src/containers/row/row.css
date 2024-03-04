@@ -9,3 +9,9 @@
 .row-letters-container > * {
   margin: 0 5px; /* Adjust space between letters */
 }
+
+@media screen and (max-width: 1000px){
+    .row-letters-container > * {
+        margin: 0 2px; /* Adjust space between letters */
+    }
+}

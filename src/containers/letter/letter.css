@@ -11,3 +11,9 @@
     font-weight: bold;
     font-family: sans-serif;
 }
+@media screen and (max-width: 1000px){
+    .letter-container {
+        width: 35px;
+        height: 35px;
+    }
+}
