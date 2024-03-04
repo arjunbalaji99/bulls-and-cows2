@@ -1,0 +1,19 @@
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 3px;
+  border-radius: 4px;
+  font-size: 1.25em;
+  background-color: grey;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px){
+  .key {
+    padding: 15px;
+  }
+}
